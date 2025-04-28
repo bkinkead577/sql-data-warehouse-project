@@ -1,4 +1,4 @@
-# Data Warehouse and Analytice Project 
+# Data Warehouse and Analytics Project 
 
 Udemy course - Building a Modern Datawarehouse
 

@@ -7,9 +7,10 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 ## Project Requirements 
 
+### Building the Datawarehouse (Data Engineering)
 
 #### Objective
 
-### Specifications
+#### Specifications
 
 

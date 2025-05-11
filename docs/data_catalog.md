@@ -29,14 +29,16 @@ It consists of **dimension tables** and **fact tables** for specific business me
 
 | Column Name | Data Type | Description |
 | ------------ | ----------- | ----------- |
-| customer_key | INT | Surrogate key uniquely identifying each customer record in the dimension table |
-| customer_id | INT | Unique numerical identifier assigned to each customer |
-| customer_number | NVARCHAR(50) | Alphanumeric identifier representing the customer, used for tracking an referencing | 
-| first_name | NARCHAR(50) | The customer's first name, as recorded in the system |
-| last_name | NVARCHAR(50) | The customer's last name or family name |
-| country | NVARCHAR(50) | The country of residence for the customer (e.g., 'Ireland') |
-| marital_status | NVARCHAR(50) | The marital status of the customer (e.g., 'Married', 'Single', 'n/a') |
-| gender | NVARCHAR(50) | The gender of the customer (e.g., 'Male', 'Female', 'n/a') |
+| product_key | INT | Surrogate key uniquely identifying each customer record in the dimension table |
+| product_number | INT | Unique numerical identifier assigned to each customer |
+| product_name | NVARCHAR(50) | Alphanumeric identifier representing the customer, used for tracking an referencing | 
+| category_id | NARCHAR(50) | The customer's first name, as recorded in the system |
+| category | NVARCHAR(50) | The customer's last name or family name |
+| subcategory | NVARCHAR(50) | The country of residence for the customer (e.g., 'Ireland') |
+| maintenance_required | NVARCHAR(50) | The marital status of the customer (e.g., 'Married', 'Single', 'n/a') |
+| cost | INT | The gender of the customer (e.g., 'Male', 'Female', 'n/a') |
+| product_line | NVARCHAR(50) | The gender of the customer (e.g., 'Male', 'Female', 'n/a') |
+| start_date | DATE | The gender of the customer (e.g., 'Male', 'Female', 'n/a') |
 
 ### 3. gold.fact_sales
 

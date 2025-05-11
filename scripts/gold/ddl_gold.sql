@@ -8,7 +8,7 @@ Script Purpose:
    The Gold Layer represents the final dimension and fact tables (Star Schema)
 
   Each view performs transformations and combines data from the Silver layer 
-  to produce a clean, enriched, and business-read dataset.
+  to produce a clean, enriched, and business-ready dataset.
 
 
 Usage:

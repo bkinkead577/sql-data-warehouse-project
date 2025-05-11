@@ -30,15 +30,16 @@ It consists of **dimension tables** and **fact tables** for specific business me
 | Column Name | Data Type | Description |
 | ------------ | ----------- | ----------- |
 | product_key | INT | Surrogate key uniquely identifying each customer record in the dimension table |
-| product_number | INT | Unique numerical identifier assigned to each customer |
-| product_name | NVARCHAR(50) | Alphanumeric identifier representing the customer, used for tracking an referencing | 
-| category_id | NARCHAR(50) | The customer's first name, as recorded in the system |
-| category | NVARCHAR(50) | The customer's last name or family name |
-| subcategory | NVARCHAR(50) | The country of residence for the customer (e.g., 'Ireland') |
-| maintenance_required | NVARCHAR(50) | The marital status of the customer (e.g., 'Married', 'Single', 'n/a') |
-| cost | INT | The gender of the customer (e.g., 'Male', 'Female', 'n/a') |
-| product_line | NVARCHAR(50) | The gender of the customer (e.g., 'Male', 'Female', 'n/a') |
-| start_date | DATE | The gender of the customer (e.g., 'Male', 'Female', 'n/a') |
+| product_id | INT | A unique identifier assigned to the product for internal tracking and referencing. |
+| product_number | NVARCHAR(50) | A structured alphanumeric code representing the product, often used for categorizing or inventory. |
+| product_name | NVARCHAR(50) | Descriptive name of the product, including key details such as type, color, and size. | 
+| category_id | NARCHAR(50) | A unique identifier for the product's category, linking to its high-level classification |
+| category | NVARCHAR(50) | The boader classification of the product (e.g., Bikes, Components) to group related  |
+| subcategory | NVARCHAR(50) | A more detailed classification of the product within the category, such as product  |
+| maintenance_required | NVARCHAR(50) | Indicates whether the product requires maintenance (e.g., 'Yes', 'No'). |
+| cost | INT | The cost or base price of the product, measured in monetary units. |
+| product_line | NVARCHAR(50) | The specific product line or series to which the product belong's (e.g., Road). |
+| start_date | DATE | The date when the product becam available for sale or use, stored in |
 
 ### 3. gold.fact_sales
 

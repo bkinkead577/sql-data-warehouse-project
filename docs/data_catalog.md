@@ -7,7 +7,7 @@ It consists of **dimension tables** and **fact tables** for specific business me
 
 ### 1. gold.dim_customers
 
-Purpose: Stores customer details enriched with demographic and geographic data.
-Columns: 
+* **Purpose:** Stores customer details enriched with demographic and geographic data.\
+* **Columns:**  
 
 

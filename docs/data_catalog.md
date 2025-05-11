@@ -7,7 +7,7 @@ It consists of **dimension tables** and **fact tables** for specific business me
 
 ### 1. gold.dim_customers
 
-* **Purpose:** Stores customer details enriched with demographic and geographic data.\
+* **Purpose:** Stores customer details enriched with demographic and geographic data.  
 * **Columns:**  
 
 | Column Name | Data Type | Description |
@@ -24,7 +24,7 @@ It consists of **dimension tables** and **fact tables** for specific business me
 
 ### 2. gold.dim_products
 
-* **Purpose:** Provides information about the products and their attributes.\
+* **Purpose:** Provides information about the products and their attributes.  
 * **Columns:**  
 
 | Column Name | Data Type | Description |
@@ -40,7 +40,7 @@ It consists of **dimension tables** and **fact tables** for specific business me
 
 ### 3. gold.fact_sales
 
-* **Purpose:** Stores transactional sales data for analytical purposes.\
+* **Purpose:** Stores transactional sales data for analytical purposes.  
 * **Columns:**  
 
 | Column Name | Data Type | Description |
